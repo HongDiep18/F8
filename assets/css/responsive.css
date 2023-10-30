@@ -1,0 +1,133 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding-top: 12px;
+        display: inline-block;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+}
+
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+   
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+
+    .s-full-width,
+    .s-column-full  {
+        width: 100% !important;
+    } 
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    
+    
+    #nav {
+        display: block;
+    }
+    
+    #nav> li {
+        display: block;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 47px;
+
+    }
+    
+    /* #content .member-item {
+        width: 100%;
+        margin-top: 31px;
+    Don't use because I use s-colum0full and mt-16
+    } */
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .member-name {
+          margin-top: 0;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    /* Chỉnh place đây nè. Bị lỗi nên chế đó */
+    .places-list {
+        display: block;
+    }
+
+    .column-third {
+        width: 100%;
+    }
+
+    /* làm cho size của form ở contact nó dễ bấm  */
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    #footer .socials-list {
+        font-size: 33px;
+    }
+    
+    .row .js-buy-ticket {
+        font-size: 16px;
+    }
+}
